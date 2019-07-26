@@ -44,8 +44,8 @@ function a(x){
 		  		document.getElementById('title').style.cssText='right:9vh'
 			}else if (x<700){
 			document.getElementsByClassName('dot')[i].style.cssText =`
-				height: ${9}vh;
-				width: ${9}vh;
+				height: ${6}vh;
+				width: ${6}vh;
 		  		border-radius: 50%;
 		  		margin: ${Math.pow(x,-1)*10000}vh;
 		  		margin-left: ${x/1000}vh;
