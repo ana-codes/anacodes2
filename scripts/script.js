@@ -30,7 +30,7 @@ function a(x){
 		  		right:10vh;`
 		  	document.getElementById('dots').style.cssText='	left: 8vh;bottom: 8vh;'	
 		  	document.getElementById('title').style.cssText='right:9vh'
-			} else if (x<1100 && x>650){
+			} else if (x<1100 && x>700){
 				document.getElementsByClassName('dot')[i].style.cssText =`
 				height: ${15}vh;
 				width: ${15}vh;
@@ -42,7 +42,7 @@ function a(x){
 		  		bottom: ${Math.pow(x,-1)*14000+9}vh;`	
 		  		document.getElementById('dots').style.cssText='	right: 1vh;'		
 		  		document.getElementById('title').style.cssText='right:9vh'
-			}else if (x<650){
+			}else if (x<700){
 			document.getElementsByClassName('dot')[i].style.cssText =`
 				height: ${9}vh;
 				width: ${9}vh;
