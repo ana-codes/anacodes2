@@ -1,5 +1,4 @@
-alert(window.innerWidth);
-      if(window.attachEvent) {
+if(window.attachEvent) {
     window.attachEvent('onresize', function() {
         alert('attachEvent - resize');
         a(window.innerWidth);
