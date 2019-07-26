@@ -1,13 +1,20 @@
 body{
-	background-color: rgb(255,179,193);
-	text-align: center;
+
+background: rgb(255,179,193);
+background: linear-gradient(90deg, rgba(255,196,179,1) 0%, rgba(255,177,181,1) 50%, rgba(255,204,222,1) 100%);
+text-align: center;
+}
+#particles-js{
+	position:fixed;
+	height:100%;
+	width:100%;
 }
 #dots{
 	display: inline-flex;
 	flex-direction: row;
 	grid-template-rows: 1/3;
 	grid-template-columns: 1/3;
-	flex-wrap: wrap;
+
 	position: relative;
 	justify-content: center;
 	align-items: center;

@@ -1,3 +1,5 @@
+particlesJS.load('particles-js', 'particles-cfg.json')
+
 if(window.attachEvent) {
     window.attachEvent('onresize', function() {
         alert('attachEvent - resize');
@@ -31,8 +33,8 @@ function a(x){
 		  	document.getElementById('title').style.cssText='right:9vh'
 			} else if (x<1100 && x>700){
 				document.getElementsByClassName('dot')[i].style.cssText =`
-				height: ${15}vh;
-				width: ${15}vh;
+				height: ${12}vh;
+				width: ${12}vh;
 		  		border-radius: 50%;
 		  		margin: ${Math.pow(x,-1)*13000 + 3}vh;
 		  		margin-left: ${x/100}vh;
