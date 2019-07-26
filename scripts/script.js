@@ -43,12 +43,12 @@ function a(x){
 		  		document.getElementById('title').style.cssText='right:9vh'
 			}else if (x<650){
 			document.getElementsByClassName('dot')[i].style.cssText =`
-				height: ${11}vh;
-				width: ${11}vh;
+				height: ${9}vh;
+				width: ${9}vh;
 		  		border-radius: 50%;
 		  		margin: ${Math.pow(x,-1)*10000}vh;
-		  		margin-left: ${x/100}vh;
-		  		margin-right: ${x/90}vh;
+		  		margin-left: ${x/1000}vh;
+		  		margin-right: ${x/100}vh;
 		  		position:relative;
 		  		bottom: ${Math.pow(x,-1)*10000 + 10}vh;`	
 		  		document.getElementById('dots').style.cssText='	right: 1vh;'	
