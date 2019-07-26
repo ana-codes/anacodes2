@@ -52,7 +52,7 @@ function a(x){
 		  		position:relative;
 		  		bottom: ${Math.pow(x,-1)*10000 + 10}vh;`	
 		  		document.getElementById('dots').style.cssText='	right: 1vh;'	
-		  		document.getElementById('title').style.cssText='right:14vh'
+		  		document.getElementById('title').style.cssText='right:6vh; font-size: 6vh;'
 			}	
 		}
 		for(i=0;i<3;i++){
