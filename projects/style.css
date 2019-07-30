@@ -7,11 +7,17 @@ text-align: center;
 padding:0;
 margin:0;
 }
-
+img{
+	width: 70%;
+	height:auto;
+	padding-bottom:1vh;
+	position:relative;
+	top:10vh;
+}
 #dots{
 	width:98%;
-	height:auto;
-	border: 4px solid rgba(214,4,4,0.44);
+	height:80vh;
+	border: 4px solid black;
 	margin:0px;
 	padding:0px;
 	display: inline-flex;
@@ -66,6 +72,7 @@ margin:0;
 	right: 11vw;
 }
 p{
+	padding-top: 2vh;
 	font-family: 'Didot';
     	src: url('Didot.woff2') format('woff2'),
         url('Didot.woff') format('woff'),

@@ -23,8 +23,8 @@ document.getElementsByClassName('dot')[i].style.cssText =`
 				height: ${15*(x/1000)}vh;
 				width: ${15*(x/1000)}vh;
 		  		border-radius: 50%;
-		  		margin-left:${x/40}vw;
-		  		margin-right:${x/40}vw;
+		  		margin-left:${x/60}vw;
+		  		margin-right:${x/60}vw;
 		  		margin-bottom:${window.innerHeight/60}vh;
 		  		margin-top:${window.innerHeight/60}vh;
 		  		.hover:box-shadow: 10px 10px 0px #000000;`	
@@ -33,8 +33,8 @@ document.getElementsByClassName('dot')[i].style.cssText =`
 				height: ${15*(x/1000)}vh;
 				width: ${15*(x/1000)}vh;
 		  		border-radius: 50%;
-		  		margin-left:${x/70}vw;
-		  		margin-right:${x/70}vw;
+		  		margin-left:${x/90}vw;
+		  		margin-right:${x/90}vw;
 		  		margin-bottom:${window.innerHeight/60}vh;
 		  		margin-top:${window.innerHeight/60}vh;
 		  		.hover:box-shadow: 10px 10px 0px #000000;`	
@@ -43,8 +43,8 @@ document.getElementsByClassName('dot')[i].style.cssText =`
 				height: ${15*(x/1000)}vh;
 				width: ${15*(x/1000)}vh;
 		  		border-radius: 50%;
-		  		margin-left:${x/105}vw;
-		  		margin-right:${x/105}vw;
+		  		margin-left:${x/125}vw;
+		  		margin-right:${x/125}vw;
 		  		margin-bottom:${window.innerHeight/95}vh;
 		  		margin-top:${window.innerHeight/95}vh;
 		  		.hover:box-shadow: 10px 10px 0px #000000;`	
