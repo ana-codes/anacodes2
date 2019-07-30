@@ -11,7 +11,7 @@ margin:0;
 #dots{
 	width:98%;
 	height:auto;
-	border: 4px solid rgba(214,4,4,0.44);
+	/*border: 4px solid rgba(214,4,4,0.44);*/
 	margin:0px;
 	padding:0px;
 	display: inline-flex;
